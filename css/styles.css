@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+nav {
+  height: 40px;
+  background: whitesmoke;
+  line-height: 40px;
+  position: fixed;
+  top: 0px;
+  right: 0;
+  left: 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0 auto;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0;
+  text-align: center;
+  width: 15%;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  font-family: serif;
+  
+}
+
+ul {
+  list-style: none;
+}
+
+.info {
+  text-align: center;
+  padding-top: 50px;
+  font-family: serif;
+}
+
+.container {
+  text-align: center;
+  padding-top: 50px;
+  font-family: serif;
+  width: 600px;
+  margin: 0 auto;
+}
+
+article {
+  padding: 30px;
+}
+
+@media (max-width: 900px) {
+  nav {
+    height: 40px;
+    background: whitesmoke;
+    line-height: 40px;
+    position: fixed;
+    top: 0px;
+    right: 0;
+    left: 0;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0 auto;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 0;
+    text-align: center;
+    width: 15.4%;
+  }
+  
+  nav a {
+    color: black;
+    text-decoration: none;
+    font-family: serif;
+    font-size: 8px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .info {
+    text-align: center;
+    padding-top: 25px;
+    font-family: serif;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .info h1 {
+    padding-top: 15px;
+    font-size: 20px;
+  }
+  
+  .container {
+    text-align: center;
+    padding-top: 15px;
+    font-family: serif;
+    width: 90%;
+    margin: 0;
+    display: inline-block;
+  }
+
+  .container h1 {
+    font-size: 18px;
+  }
+  
+  article {
+    padding: 10px 0px;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+
+  article p {
+    font-size: 13px;
+  }
+}
